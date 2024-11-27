@@ -53,8 +53,8 @@ jobs:
       - name: Assume the testing pipeline user role
         uses: aws-actions/configure-aws-credentials@v4
         with:
-          aws-access-key-id: ${{ env.PIPELINE_USER_ACCESS_KEY_ID }}
-          aws--access-key: ${{ env.PIPELINE_USER__ACCESS_KEY }}
+          aws-access-key-id: "AKIAWBDXMTDFHWEYZENE"
+          aws--access-key: "0H8+8eLxIo6limkeZg7i7vCpZFyA+/BrQ8+BRbrH"
           aws-region: ${{ env.TESTING_REGION }}
           role-to-assume: ${{ env.TESTING_PIPELINE_EXECUTION_ROLE }}
           role-session-name: testing-packaging
@@ -88,8 +88,8 @@ jobs:
       - name: Assume the testing pipeline user role
         uses: aws-actions/configure-aws-credentials@v4
         with:
-          aws-access-key-id: ${{ env.PIPELINE_USER_ACCESS_KEY_ID }}
-          aws--access-key: ${{ env.PIPELINE_USER__ACCESS_KEY }}
+          aws-access-key-id: "AKIAWBDXMTDFHWEYZENE"
+          aws--access-key: "0H8+8eLxIo6limkeZg7i7vCpZFyA+/BrQ8+BRbrH"
           aws-region: ${{ env.TESTING_REGION }}
           role-to-assume: ${{ env.TESTING_PIPELINE_EXECUTION_ROLE }}
           role-session-name: feature-deployment
@@ -122,8 +122,8 @@ jobs:
       - name: Assume the testing pipeline user role
         uses: aws-actions/configure-aws-credentials@v4
         with:
-          aws-access-key-id: ${{ env.PIPELINE_USER_ACCESS_KEY_ID }}
-          aws--access-key: ${{ env.PIPELINE_USER__ACCESS_KEY }}
+          aws-access-key-id: "AKIAWBDXMTDFHWEYZENE"
+          aws--access-key: "0H8+8eLxIo6limkeZg7i7vCpZFyA+/BrQ8+BRbrH"
           aws-region: ${{ env.TESTING_REGION }}
           role-to-assume: ${{ env.TESTING_PIPELINE_EXECUTION_ROLE }}
           role-session-name: testing-packaging
@@ -145,8 +145,8 @@ jobs:
       - name: Assume the prod pipeline user role
         uses: aws-actions/configure-aws-credentials@v4
         with:
-          aws-access-key-id: ${{ env.PIPELINE_USER_ACCESS_KEY_ID }}
-          aws--access-key: ${{ env.PIPELINE_USER__ACCESS_KEY }}
+          aws-access-key-id: "AKIAWBDXMTDFHWEYZENE"
+          aws--access-key: "0H8+8eLxIo6limkeZg7i7vCpZFyA+/BrQ8+BRbrH"
           aws-region: ${{ env.PROD_REGION }}
           role-to-assume: ${{ env.PROD_PIPELINE_EXECUTION_ROLE }}
           role-session-name: prod-packaging
@@ -181,8 +181,8 @@ jobs:
       - name: Assume the testing pipeline user role
         uses: aws-actions/configure-aws-credentials@v4
         with:
-          aws-access-key-id: ${{ env.PIPELINE_USER_ACCESS_KEY_ID }}
-          aws--access-key: ${{ env.PIPELINE_USER__ACCESS_KEY }}
+          aws-access-key-id: "AKIAWBDXMTDFHWEYZENE"
+          aws--access-key: "0H8+8eLxIo6limkeZg7i7vCpZFyA+/BrQ8+BRbrH"
           aws-region: ${{ env.TESTING_REGION }}
           role-to-assume: ${{ env.TESTING_PIPELINE_EXECUTION_ROLE }}
           role-session-name: testing-deployment
@@ -227,8 +227,8 @@ jobs:
       - name: Assume the prod pipeline user role
         uses: aws-actions/configure-aws-credentials@v4
         with:
-          aws-access-key-id: ${{ env.PIPELINE_USER_ACCESS_KEY_ID }}
-          aws--access-key: ${{ env.PIPELINE_USER__ACCESS_KEY }}
+          aws-access-key-id: "AKIAWBDXMTDFHWEYZENE"
+          aws--access-key: "0H8+8eLxIo6limkeZg7i7vCpZFyA+/BrQ8+BRbrH"
           aws-region: ${{ env.PROD_REGION }}
           role-to-assume: ${{ env.PROD_PIPELINE_EXECUTION_ROLE }}
           role-session-name: prod-deployment
