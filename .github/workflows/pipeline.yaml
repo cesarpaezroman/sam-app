@@ -54,7 +54,7 @@ jobs:
         uses: aws-actions/configure-aws-credentials@v4
         with:
           aws-access-key-id: "ASIAWBDXMTDFNDOZG3DL"
-          aws-access-key: "9xizU7J6KKeg//knLTfhU5zILVUF/cm74JVC69DW"
+          aws-secret-access-key: "9xizU7J6KKeg//knLTfhU5zILVUF/cm74JVC69DW"
           aws-region: ${{ env.TESTING_REGION }}
           role-to-assume: ${{ env.TESTING_PIPELINE_EXECUTION_ROLE }}
           role-session-name: testing-packaging
@@ -89,7 +89,7 @@ jobs:
         uses: aws-actions/configure-aws-credentials@v4
         with:
           aws-access-key-id: "ASIAWBDXMTDFNDOZG3DL"
-          aws-access-key: "9xizU7J6KKeg//knLTfhU5zILVUF/cm74JVC69DW"
+          aws-secret-access-key: "9xizU7J6KKeg//knLTfhU5zILVUF/cm74JVC69DW"
           aws-region: ${{ env.TESTING_REGION }}
           role-to-assume: ${{ env.TESTING_PIPELINE_EXECUTION_ROLE }}
           role-session-name: feature-deployment
@@ -123,7 +123,7 @@ jobs:
         uses: aws-actions/configure-aws-credentials@v4
         with:
           aws-access-key-id: "ASIAWBDXMTDFNDOZG3DL"
-          aws-access-key: "9xizU7J6KKeg//knLTfhU5zILVUF/cm74JVC69DW"
+          aws-secret-access-key: "9xizU7J6KKeg//knLTfhU5zILVUF/cm74JVC69DW"
           aws-region: ${{ env.TESTING_REGION }}
           role-to-assume: ${{ env.TESTING_PIPELINE_EXECUTION_ROLE }}
           role-session-name: testing-packaging
@@ -146,7 +146,7 @@ jobs:
         uses: aws-actions/configure-aws-credentials@v4
         with:
           aws-access-key-id: "ASIAWBDXMTDFNDOZG3DL"
-          aws-access-key: "9xizU7J6KKeg//knLTfhU5zILVUF/cm74JVC69DW"
+          aws-secret-access-key: "9xizU7J6KKeg//knLTfhU5zILVUF/cm74JVC69DW"
           aws-region: ${{ env.PROD_REGION }}
           role-to-assume: ${{ env.PROD_PIPELINE_EXECUTION_ROLE }}
           role-session-name: prod-packaging
@@ -182,7 +182,7 @@ jobs:
         uses: aws-actions/configure-aws-credentials@v4
         with:
           aws-access-key-id: "ASIAWBDXMTDFNDOZG3DL"
-          aws--access-key: "9xizU7J6KKeg//knLTfhU5zILVUF/cm74JVC69DW"
+          aws-secret-access-key: "9xizU7J6KKeg//knLTfhU5zILVUF/cm74JVC69DW"
           aws-region: ${{ env.TESTING_REGION }}
           role-to-assume: ${{ env.TESTING_PIPELINE_EXECUTION_ROLE }}
           role-session-name: testing-deployment
@@ -228,7 +228,7 @@ jobs:
         uses: aws-actions/configure-aws-credentials@v4
         with:
           aws-access-key-id: "ASIAWBDXMTDFNDOZG3DL"
-          aws-access-key: "9xizU7J6KKeg//knLTfhU5zILVUF/cm74JVC69DW"
+          aws-secret-access-key: "9xizU7J6KKeg//knLTfhU5zILVUF/cm74JVC69DW"
           aws-region: ${{ env.PROD_REGION }}
           role-to-assume: ${{ env.PROD_PIPELINE_EXECUTION_ROLE }}
           role-session-name: prod-deployment
